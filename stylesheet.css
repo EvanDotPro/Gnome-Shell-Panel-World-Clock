@@ -1,0 +1,24 @@
+
+.location-label {
+    font-weight: bold;
+}
+
+.location-label, .location-day {
+    padding: .4em 1.7em;
+}
+
+.location-sunset-icon, .location-sunrise-icon {
+    padding-right: 5px;
+}
+
+.location-sunset-icon {
+    padding-left: 15px;
+}
+
+.nobg {
+    background-color: @theme_bg_color;
+}
+
+:selected.nobg {
+    background-color: @theme_selected_bg_color;
+}
